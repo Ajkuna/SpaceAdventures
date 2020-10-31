@@ -1,5 +1,12 @@
 image: gitpod/workspace-full-vnc
 
 tasks:
-  - init: npm install
-    command: npm start
+  - init: pip3 install -r pygame
+    command: python3 main.py
+
+ports:
+  - port: 5900
+    onOpen: ignore
+  - port: 6080
+    onOpen: open-preview
+
