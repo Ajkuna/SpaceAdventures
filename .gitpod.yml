@@ -1,8 +1,8 @@
 image: gitpod/workspace-full-vnc
 
 tasks:
-  - init: pip3 install -r requirements.txt
-    command: python3 main.py
+  - init: pip install -r requirements.txt
+    command: main.py
 
 ports:
   - port: 5900
