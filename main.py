@@ -5,6 +5,7 @@ from pygame import mixer
 
 # Initialize the py-game
 pygame.init()
+pygame.mixer.init()
 
 # Creating the main screen
 # set_mode((x_coordinate, y_coordinate))
