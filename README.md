@@ -5,7 +5,5 @@ Simple game made using 'pygame' library and Python 3.8.
 - Python3.x
 - 'pygame' library
 
-# Live Demo (Gitpod)
-You can view the game in action online with no need to download the repository zip:
-
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Ajkuna/SpaceAdventures)
+Run the **main.py** file to start the game. Make sure to run a 
+new game window to start a new match.
